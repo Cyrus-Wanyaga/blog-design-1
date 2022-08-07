@@ -30,10 +30,10 @@ function BelowGridContainer({loremText}) {
                 <p className={"big-text"}>Perfect layout for your items, <br/> showrooms, messes, drives
                     & <br/> conferences</p>
             </div>
-            <div className={"middle-container"} ref={midContainerRef}>
+            <div className={"middle-container middle-container-mobile"} ref={midContainerRef}>
                 <p>{loremText !== null ? loremText[0].text : null}</p>
             </div>
-            <div className={"right-container"} ref={rightContainerRef}>
+            <div className={"right-container right-container-mobile"} ref={rightContainerRef}>
                 <span>01/05</span>
                 <span className={"material-symbols-outlined"}>arrow_back</span>
                 <span className={"material-symbols-outlined"}>arrow_forward</span>

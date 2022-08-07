@@ -411,6 +411,14 @@
     overflow-x: scroll;
   }
 
+  .transformed-container {
+    margin-top: 250px !important;
+  }
+
+  .big-text {
+    line-height: 100%;
+  }
+
   .logo-image {
     margin-right: 24px;
   }
@@ -423,6 +431,22 @@
     width: auto;
     padding: 0 24px;
     margin: 0 !important;
+  }
+
+  .peach-container .inner-container:nth-of-type(1) {
+    margin-top: 220px !important;
+  }
+
+  .middle-container-mobile {
+    padding: 24px 0 !important;
+  }
+
+  .right-container-mobile {
+    justify-content: flex-start;
+  }
+
+  .right-container-mobile span:nth-of-type(1) {
+    margin-right: 24px;
   }
 
   .peach-container .inner-container .left-container .big-text {
