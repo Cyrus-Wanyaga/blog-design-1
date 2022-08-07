@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    pointer-events: none;
+}
